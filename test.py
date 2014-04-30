@@ -71,8 +71,6 @@ for i in xrange(len(components)):
 	minx,miny,maxx,maxy=boundbox[count]
 	cv2.rectangle(image,(maxx,maxy),(minx,miny),cv2.cv.RGB(r,g,b),thickness=2)
 	count=count+1
-
-
-
+	
 plt.imshow(image)
 plt.show()
