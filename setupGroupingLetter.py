@@ -4,8 +4,8 @@ from Cython.Build import cythonize
 from Cython.Distutils import build_ext
 
 ext_module = Extension(
-    "TextDetection",
-    ["TextDetection.pyx"],
+    "groupingLetter",
+    ["groupingLetter.pyx"],
 )
 
 setup(
