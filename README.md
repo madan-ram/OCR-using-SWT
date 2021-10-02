@@ -5,6 +5,8 @@ This project objective describes an device dedicated for blind or   visually imp
 
 We implemented Stroke width transform a image operator that seeks to find the value of stroke width for each image pixel, and demonstrate its use on the task of text detection in natural images. The suggested operator is local and data dependent, which makes it fast and robust enough to eliminate the need for multi-scale computation or scanning windows. Extensive testing shows that the suggested scheme outperforms the latest published algorithms. Its simplicity allows the algorithm to detect texts in many fonts and languages. 
 
+Reference paper - http://www.math.tau.ac.il/~turkel/imagepapers/text_detection.pdf
+
 **List of algorithm implemented**
   * Stroke width transform (SWT) {For Text Detection}
   * Connected component labeling using DFS
